@@ -96,415 +96,258 @@
       "rotation": 90
     },
     {
-      "type": "pin",
+      "type": "pinArray",
       "x": 60,
       "y": 41,
-      "bind": "J2",
-      "label": "D5",
-      "rotation": 90
+      "horizontal": true,
+      "pins": [
+        {
+          "bind": "J2",
+          "label": "D5"
+        },
+        {
+          "bind": "J1",
+          "label": "D4"
+        },
+        {
+          "bind": "H4",
+          "label": "D3"
+        },
+        {
+          "bind": "H5",
+          "label": "D2"
+        },
+        {
+          "bind": "K10",
+          "label": "D1"
+        },
+        {
+          "bind": "H8",
+          "label": "D0"
+        },
+        {
+          "bind": "E4",
+          "label": "AIN6",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "F1",
+          "label": "AIN5",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "E3",
+          "label": "AIN4",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "D1",
+          "label": "AIN3",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "C1",
+          "label": "AIN2",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "C2",
+          "label": "ANI1",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "E1",
+          "label": "AIN0",
+          "color": "#00FEBB"
+        },
+        {
+          "color": "#E8BC63",
+          "label": "AREF"
+        }
+      ]
     },
     {
-      "type": "pin",
-      "x": 70,
-      "y": 41,
-      "bind": "J1",
-      "label": "D4",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 80,
-      "y": 41,
-      "bind": "H4",
-      "label": "D3",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 90,
-      "y": 41,
-      "bind": "H5",
-      "label": "D2",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 100,
-      "y": 41,
-      "bind": "K10",
-      "label": "D1",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 110,
-      "y": 41,
-      "bind": "H8",
-      "label": "D0",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 120,
-      "y": 41,
-      "color": "#00FEBB",
-      "bind": "E4",
-      "label": "AIN6",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 130,
-      "y": 41,
-      "color": "#00FEBB",
-      "bind": "F1",
-      "label": "AIN5",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 140,
-      "y": 41,
-      "color": "#00FEBB",
-      "bind": "E3",
-      "label": "AIN4",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 150,
-      "y": 41,
-      "color": "#00FEBB",
-      "bind": "D1",
-      "label": "AIN3",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 160,
-      "y": 41,
-      "color": "#00FEBB",
-      "bind": "C1",
-      "label": "AIN2",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 170,
-      "y": 41,
-      "color": "#00FEBB",
-      "bind": "C2",
-      "label": "ANI1",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 180,
-      "y": 41,
-      "color": "#00FEBB",
-      "bind": "E1",
-      "label": "AIN0",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
-      "x": 190,
-      "y": 41,
-      "color": "#E8BC63",
-      "label": "AREF",
-      "rotation": 90
-    },
-    {
-      "type": "pin",
+      "type": "pinArray",
       "x": 170,
       "y": 51,
       "color": "#00FEBB",
-      "bind": "B1",
-      "label": "AIN7",
-      "rotation": -90,
+      "horizontal": true,
       "flipLabel": true,
-      "textColor": "white"
+      "textColor": "white",
+      "pins": [
+        {
+          "bind": "B1",
+          "label": "AIN7"
+        },
+        {
+          "color": "GND",
+          "label": "GND"
+        },
+        {
+          "color": "#00FEBB",
+          "label": "AIN"
+        }
+      ]
     },
     {
-      "type": "pin",
-      "x": 180,
-      "y": 51,
-      "color": "GND",
-      "label": "GND",
-      "rotation": -90,
-      "flipLabel": true,
-      "textColor": "white"
-    },
-    {
-      "type": "pin",
-      "x": 190,
-      "y": 51,
-      "color": "#00FEBB",
-      "label": "AIN",
-      "foreground": "white",
-      "rotation": -90,
-      "flipLabel": true,
-      "textColor": "white"
-    },    
-    {
-      "type": "pin",
+      "type": "pinArray",
       "x": 60,
       "y": 129,
-      "bind": "L12",
-      "label": "D6",
-      "rotation": -90,
-      "flipLabel": true
+      "horizontal": true,
+      "flipLabel": true,
+      "pins": [
+        {
+          "bind": "L12",
+          "label": "D6"
+        },
+        {
+          "bind": "J12",
+          "label": "D7"
+        },
+        {
+          "bind": "J13",
+          "label": "D8"
+        },
+        {
+          "bind": "K11",
+          "label": "D9"
+        },
+        {
+          "bind": "K12",
+          "label": "D10"
+        },
+        {
+          "bind": "J10",
+          "label": "D11"
+        },
+        {
+          "bind": "H10",
+          "label": "D12"
+        },
+        {
+          "bind": "H13",
+          "label": "D13"
+        },
+        {
+          "bind": "G12",
+          "label": "D14"
+        },
+        {
+          "label": "Reset",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "GND",
+          "color": "GND"
+        },
+        {
+          "label": "3V3",
+          "color": "3V3"
+        },
+        {
+          "label": "VIN",
+          "color": "5V"
+        },
+        {
+          "label": "5V",
+          "color": "5V"
+        }
+      ]
     },
     {
-      "type": "pin",
-      "x": 70,
-      "y": 129,
-      "bind": "J12",
-      "label": "D7",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 80,
-      "y": 129,
-      "bind": "J13",
-      "label": "D8",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 90,
-      "y": 129,
-      "bind": "K11",
-      "label": "D9",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 100,
-      "y": 129,
-      "bind": "K12",
-      "label": "D10",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
+      "type": "pinArray",
       "x": 110,
-      "y": 129,
-      "bind": "J10",
-      "label": "D11",
-      "rotation": -90,
-      "flipLabel": true
+      "y": 119,
+      "horizontal": true,
+      "flipLabel": false,
+      "textColor": "white",
+      "pins": [
+        {
+          "label": "PULL",
+          "bind": "B11"
+        },
+        {
+          "label": "PULL",
+          "bind": "G13"
+        }
+      ]
     },
     {
-      "type": "pin",
-      "x": 120,
-      "y": 129,
-      "bind": "H10",
-      "label": "D12",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 130,
-      "y": 129,
-      "bind": "H13",
-      "label": "D13",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 140,
-      "y": 129,
-      "bind": "G12",
-      "label": "D14",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 150,
-      "y": 129,
-      "label": "Reset",
-      "color": "#FE6EFF",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 160,
-      "y": 129,
-      "label": "GND",
-      "color": "GND",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 170,
-      "y": 129,
-      "label": "3V3",
-      "color": "3V3",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 180,
-      "y": 129,
-      "label": "VIN",
-      "color": "5V",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
-      "x": 190,
-      "y": 129,
-      "label": "5V",
-      "color": "5V",
-      "rotation": -90,
-      "flipLabel": true
-    },
-    {
-      "type": "pin",
+      "type": "pinArray",
       "x": 140,
       "y": 119,
-      "label": "TMS",
-      "color": "#FE6EFF",
-      "rotation": 90,
-      "textColor": "white"
+      "horizontal": true,
+      "flipLabel": false,
+      "textColor": "white",
+      "pins": [
+        {
+          "label": "TMS",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "TDI",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "TDO",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "TCK",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "JTAG",
+          "color": "#00FEBB"
+        },
+        {
+          "label": "GND",
+          "color": "GND"
+        }
+      ]
     },
     {
-      "type": "pin",
-      "x": 150,
-      "y": 119,
-      "label": "TDI",
-      "color": "#FE6EFF",
-      "rotation": 90,
-      "textColor": "white"
-    },
-    {
-      "type": "pin",
-      "x": 160,
-      "y": 119,
-      "label": "TDO",
-      "color": "#FE6EFF",
-      "rotation": 90,
-      "textColor": "white"
-    },
-    {
-      "type": "pin",
-      "x": 170,
-      "y": 119,
-      "label": "TCK",
-      "color": "#FE6EFF",
-      "rotation": 90,
-      "textColor": "white"
-    },
-    {
-      "type": "pin",
-      "x": 180,
-      "y": 119,
-      "label": "JTAG",
-      "color": "#00FEBB",
-      "rotation": 90,
-      "textColor": "white"
-    },
-    {
-      "type": "pin",
-      "x": 190,
-      "y": 119,
-      "label": "GND",
-      "color": "GND",
-      "rotation": 90,
-      "textColor": "white"
-    },
-    {
-      "type": "pin",
-      "x": 201,
-      "y": 131,
-      "bind": "D8",
+      "type": "pinArray",
+      "x": 203,
+      "y": 130,
+      "pinWidth": 6,
+      "pinHeight": 8,
+      "horizontal": true,
       "color": "red",
-      "height": 6,
-      "rotation": -90
+      "pins": [
+        {
+          "bind": "D8"
+        },
+        {
+          "bind": "C10"
+        },
+        {
+          "bind": "C9"
+        },
+        {
+          "bind": "B10"
+        },
+        {
+          "bind": "A10"
+        },
+        {
+          "bind": "A11"
+        },
+        {
+          "bind": "A9"
+        },
+        {
+          "bind": "A8"
+        }
+      ]
     },
-    {
-      "type": "pin",
-      "x": 207,
-      "y": 131,
-      "bind": "C10",
-      "color": "red",
-      "height": 6,
-      "rotation": -90
-    },
-    {
-      "type": "pin",
-      "x": 213,
-      "y": 131,
-      "bind": "C9",
-      "color": "red",
-      "height": 6,
-      "rotation": -90
-    },
-    {
-      "type": "pin",
-      "x": 219,
-      "y": 131,
-      "bind": "B10",
-      "color": "red",
-      "height": 6,
-      "rotation": -90
-    },
-    {
-      "type": "pin",
-      "x": 225,
-      "y": 131,
-      "bind": "A10",
-      "color": "red",
-      "height": 6,
-      "rotation": -90
-    },
-    {
-      "type": "pin",
-      "x": 231,
-      "y": 131,
-      "bind": "A11",
-      "color": "red",
-      "height": 6,
-      "rotation": -90
-    },
-    {
-      "type": "pin",
-      "x": 237,
-      "y": 131,
-      "bind": "A9",
-      "color": "red",
-      "height": 6,
-      "rotation": -90
-    },
-    {
-      "type": "pin",
-      "x": 243,
-      "y": 131,
-      "bind": "A8",
-      "color": "red",
-      "height": 6,
-      "rotation": -90
-    },    
     {
       "type": "text",
-      "x": 204,
+      "x": 203,
       "y": 140,
       "fontSize": 10,
       "text": "LEDs 8-1"
-    },   
+    },
     {
       "type": "rect",
       "x": 254,
@@ -515,13 +358,13 @@
     },
     {
       "type": "pin",
-      "x": 258,
-      "y": 34,
+      "x": 256,
+      "y": 38,
       "color": "#C09508",
       "label": "Reset",
       "width": 6,
       "rotation": 90
-    },   
+    },
     {
       "type": "rect",
       "x": 254,
@@ -532,15 +375,15 @@
     },
     {
       "type": "pin",
-      "x": 258,
-      "y": 136,
+      "x": 256,
+      "y": 140,
       "bind": "E6",
       "color": "#C09508",
       "label": "E6",
       "flipLabel": true,
       "width": 6,
-      "rotation": -90
-    },  
+      "rotation": 90
+    },
     {
       "type": "text",
       "x": 290,
@@ -556,7 +399,6 @@
       "color": "RX",
       "width": 12,
       "height": 8,
-      "rotation": 180,
       "flipLabel": true,
       "bind": "A4"
     },
@@ -575,7 +417,6 @@
       "color": "TX",
       "width": 12,
       "height": 8,
-      "rotation": 180,
       "flipLabel": true,
       "bind": "B4"
     },
