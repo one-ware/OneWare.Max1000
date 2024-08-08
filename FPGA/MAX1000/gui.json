@@ -421,6 +421,18 @@
       "bind": "B4"
     },
     {
+      "type": "pin",
+      "x": 210,
+      "y": 97,
+      "label": "CLK",
+      "color": "darkblue",
+      "width": 8,
+      "height": 10,
+      "rotation": 90,
+      "textColor": "white",
+      "bind": "H6"
+    },
+    {
       "type": "pmod",
       "x": 0,
       "y": 80,
