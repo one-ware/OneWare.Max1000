@@ -3,28 +3,23 @@
     "type": "Hardware",
     "name": "MAX1000 Support",
     "id": "OneWare.Max1000",
-    "description": "Max1000 Integration",
+    "description": "MAX1000 Integration",
     "license": "MIT",
-    "iconUrl": "https://raw.githubusercontent.com/ProtopSolutions/OneWare.NetlistSVG/main/logo.png",
     "tabs": [
       {
         "title": "Readme",
-        "contentUrl": "https://raw.githubusercontent.com/ProtopSolutions/OneWare.NetlistSVG/master/Extension.md"
+        "contentUrl": "https://raw.githubusercontent.com/one-ware/OneWare.Max1000/main/README.md"
       },
       {
         "title": "License",
-        "contentUrl": "https://raw.githubusercontent.com/ProtopSolutions/OneWare.NetlistSVG/master/License.md"
+        "contentUrl": "https://raw.githubusercontent.com/one-ware/OneWare.Max1000/main/LICENSE.md"
       }
     ],
     "links": [
       {
         "name": "Github",
-        "url": "https://github.com/ProtopSolutions/OneWare.NetlistSVG"
+        "url": "https://github.com/one-ware/OneWare.Max1000"
       },
-      {
-        "name": "NetlistSVG Github",
-        "url": "https://github.com/nturley/netlistsvg"
-      }
     ],
     "versions": [
       {
