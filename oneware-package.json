@@ -4,6 +4,7 @@
     "name": "MAX1000 Support",
     "id": "OneWare.Max1000",
     "description": "MAX1000 Integration",
+    "iconUrl": "https://vhdplus.com/img/max1000/max1000.png",
     "license": "MIT",
     "tabs": [
       {
