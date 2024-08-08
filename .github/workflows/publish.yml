@@ -24,7 +24,7 @@ jobs:
           type: 'zip'
           filename: ./OneWare.Max1000_${{ steps.extract-version.outputs.version }}_all.zip
           directory: ./
-          exclusions: '*.git* .oneware-package.json'
+          exclusions: '*.git* oneware-package.json'
       - uses: ncipollo/release-action@v1.14.0
         with:
           artifacts: "./OneWare.Max1000_${{ steps.extract-version.outputs.version }}_all.zip"
