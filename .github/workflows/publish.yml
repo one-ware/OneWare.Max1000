@@ -17,7 +17,7 @@ jobs:
         run: | 
           LATEST_VERSION=$(cat ./oneware-package.json | jq -r '.versions | max_by(.version | split(".") | map(tonumber)) | .version')
           echo "Latest version is $LATEST_VERSION"
-          echo "{version}={$LATEST_VERSION}" >> $GITHUB_OUTPUT
+          echo "version=$LATEST_VERSION" >> $GITHUB_OUTPUT
       - name: Compress
         uses: thedoctor0/zip-release@0.7.1
         with:
