@@ -13,7 +13,7 @@ jobs:
         with:
           submodules: recursive
       - name: Get Version
-        id: extract-version
+        id: extract_version
         run: | 
           LATEST_VERSION=$(cat ./oneware-package.json | jq -r '.versions | max_by(.version | split(".") | map(tonumber)) | .version')
           echo "Latest version is $LATEST_VERSION"
