@@ -15,7 +15,7 @@ jobs:
       - name: Get Version
         id: extract-version
         run: | 
-          LATEST_VERSION=$(cat ./oneware.json | jq -r '.versions | max_by(.version | split(".") | map(tonumber)) | .version')
+          LATEST_VERSION=$(cat ./oneware-package.json | jq -r '.versions | max_by(.version | split(".") | map(tonumber)) | .version')
           echo "Latest version is $LATEST_VERSION"
           echo "::set-output name=latest_version::$LATEST_VERSION"
       - name: Compress
