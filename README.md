@@ -1,3 +1,3 @@
 ## OneWare Studio Integration for Max1000
 
-![image](https://github.com/user-attachments/assets/0bfa883f-b0a4-434c-854a-006e07f837e0)
+![image](https://github.com/user-attachments/assets/951600a9-eee2-4693-9425-237f79d9b81b)
