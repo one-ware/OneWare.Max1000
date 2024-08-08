@@ -1,0 +1,33 @@
+name: Publish
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - name: Get Version
+        id: extract-version
+        run: | 
+          LATEST_VERSION=$(cat ./oneware.json | jq -r '.versions | max_by(.version | split(".") | map(tonumber)) | .version')
+          echo "Latest version is $LATEST_VERSION"
+          echo "::set-output name=latest_version::$LATEST_VERSION"
+      - name: Compress
+        uses: thedoctor0/zip-release@0.7.1
+        with:
+          type: 'zip'
+          filename: ./OneWare.Max1000_${{ steps.extract_version.outputs.latest_version }}_all.zip
+          directory: ./
+      - name: Debug
+        run: ls
+      - uses: ncipollo/release-action@v1.14.0
+        with:
+          artifacts: "./OneWare.Max1000_${{ steps.extract_version.outputs.latest_version }}_all.zip"
+          tag: ${{ steps.extract_version.outputs.latest_version }}
+          allowUpdates: true
