@@ -15,19 +15,18 @@ jobs:
       - name: Get Version
         id: extract-version
         run: | 
-          LATEST_VERSION=$(cat ./oneware.json | jq -r '.versions | max_by(.version | split(".") | map(tonumber)) | .version')
+          LATEST_VERSION=$(cat ./oneware-package.json | jq -r '.versions | max_by(.version | split(".") | map(tonumber)) | .version')
           echo "Latest version is $LATEST_VERSION"
-          echo "::set-output name=latest_version::$LATEST_VERSION"
+          echo "version=$LATEST_VERSION" >> $GITHUB_OUTPUT
       - name: Compress
         uses: thedoctor0/zip-release@0.7.1
         with:
           type: 'zip'
-          filename: ./OneWare.Max1000_${{ steps.extract_version.outputs.latest_version }}_all.zip
+          filename: ./OneWare.Max1000_${{ steps.extract-version.outputs.version }}_all.zip
           directory: ./
-      - name: Debug
-        run: ls
+          exclusions: '*.git* oneware-package.json'
       - uses: ncipollo/release-action@v1.14.0
         with:
-          artifacts: "./OneWare.Max1000_${{ steps.extract_version.outputs.latest_version }}_all.zip"
-          tag: ${{ steps.extract_version.outputs.latest_version }}
+          artifacts: "./OneWare.Max1000_${{ steps.extract-version.outputs.version }}_all.zip"
+          tag: ${{ steps.extract-version.outputs.version }}
           allowUpdates: true
