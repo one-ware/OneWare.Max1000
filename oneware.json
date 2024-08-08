@@ -1,0 +1,41 @@
+{
+    "category": "Hardware",
+    "type": "Hardware",
+    "name": "MAX1000 Support",
+    "id": "OneWare.Max1000",
+    "description": "Max1000 Integration",
+    "license": "MIT",
+    "iconUrl": "https://raw.githubusercontent.com/ProtopSolutions/OneWare.NetlistSVG/main/logo.png",
+    "tabs": [
+      {
+        "title": "Readme",
+        "contentUrl": "https://raw.githubusercontent.com/ProtopSolutions/OneWare.NetlistSVG/master/Extension.md"
+      },
+      {
+        "title": "License",
+        "contentUrl": "https://raw.githubusercontent.com/ProtopSolutions/OneWare.NetlistSVG/master/License.md"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/ProtopSolutions/OneWare.NetlistSVG"
+      },
+      {
+        "name": "NetlistSVG Github",
+        "url": "https://github.com/nturley/netlistsvg"
+      }
+    ],
+    "versions": [
+      {
+        "version": "1.0",
+        "targets": [
+          {
+            "target": "all",
+            "url": "https://github.com/one-ware/OneWare.NetlistSVG/releases/download/0.5.2/OneWare.NetlistSvg_0.5.2_all.zip"
+          }
+        ]
+      }
+    ]
+  }
+  
