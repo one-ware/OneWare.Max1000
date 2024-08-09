@@ -67,25 +67,13 @@
     {
       "type": "rect",
       "x": 230,
-      "y": 70,
+      "y": 73,
       "color": "#000000",
       "width": 34,
       "height": 34,
       "fontSize": 5,
       "text": "USB Programmer",
       "textColor": "white"
-    },
-    {
-      "type": "rect",
-      "x": 270,
-      "y": 80,
-      "color": "#BABABA",
-      "width": 25,
-      "height": 15,
-      "fontSize": 7,
-      "rotation": 90,
-      "text": "USB",
-      "textColor": "black"
     },
     {
       "type": "text",
@@ -385,40 +373,12 @@
       "rotation": 90
     },
     {
-      "type": "text",
-      "x": 290,
-      "y": 74,
-      "text": "<-",
-      "fontSize": 10
-    },
-    {
-      "type": "pin",
-      "x": 302,
-      "y": 77,
-      "label": "RX",
-      "color": "RX",
-      "width": 12,
-      "height": 8,
-      "flipLabel": true,
-      "bind": "A4"
-    },
-    {
-      "type": "text",
-      "x": 290,
-      "y": 87,
-      "text": "->",
-      "fontSize": 10
-    },
-    {
-      "type": "pin",
-      "x": 302,
-      "y": 90,
-      "label": "TX",
-      "color": "TX",
-      "width": 12,
-      "height": 8,
-      "flipLabel": true,
-      "bind": "B4"
+      "type": "usb",
+      "x": 275,
+      "y": 70,
+      "rxBind": "B4",
+      "txBind": "A4",
+      "rotation": 90
     },
     {
       "type": "pin",
