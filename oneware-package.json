@@ -40,6 +40,15 @@
             "url": "https://github.com/one-ware/OneWare.Max1000/releases/download/1.1/OneWare.Max1000-1.1-all.zip"
           }
         ]
+      },
+      {
+        "version": "1.2",
+        "targets": [
+          {
+            "target": "all",
+            "url": "https://github.com/one-ware/OneWare.Max1000/releases/download/1.2/OneWare.Max1000-1.2-all.zip"
+          }
+        ]
       }
     ]
   }
