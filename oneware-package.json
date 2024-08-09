@@ -3,7 +3,7 @@
     "type": "Hardware",
     "name": "MAX1000 Support",
     "id": "OneWare.Max1000",
-    "description": "MAX1000 Integration",
+    "description": "MAX1000 and MAX1000 16K Integration",
     "iconUrl": "https://raw.githubusercontent.com/one-ware/OneWare.Max1000/main/demo.png",
     "license": "MIT",
     "tabs": [
