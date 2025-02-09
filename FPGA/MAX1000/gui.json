@@ -376,8 +376,8 @@
       "type": "usb",
       "x": 275,
       "y": 70,
-      "rxBind": "B4",
-      "txBind": "A4",
+      "rxBind": "A4",
+      "txBind": "B4",
       "rotation": 90
     },
     {
